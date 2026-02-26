@@ -20,23 +20,22 @@ A customized intelligent WhatsApp proxy chatbot built with Node.js and the Expre
 > **Note to Recruiters:** The screenshots and GIFs below demonstrate live interactions with the WhatsApp Bot, proving successful API integration, dynamic intent classification, and real-time generation.
 
 ### 1. Conversational Query & RAG Retrieval
-*(Take a screenshot on your phone/WhatsApp Web showing the bot successfully answering: "What are my high priority tasks?")*
 
-<img src="assets/screenshot-1.png" alt="RAG Retrieval Screenshot" width="400"/>
+<img width="1350" height="672" alt="Image" src="https://github.com/user-attachments/assets/11adc9d5-4b01-4994-a36b-f8be967a031e" />
+
+<img width="1172" height="494" alt="Image" src="https://github.com/user-attachments/assets/5ed9c69d-c689-41e3-a418-19b19c65a273" />
 
 ### 2. Task Summarization
-*(Take a screenshot showing the bot providing a summary of the spreadsheet)*
 
-<img src="assets/screenshot-2.png" alt="Task Summarization" width="400"/>
+<img width="903" height="200" alt="Image" src="https://github.com/user-attachments/assets/d78a3112-b678-4ea0-aa48-40914db81040" />
 
 ### 3. Server Webhook Logging (Backend Proof)
-*(Take a screenshot of your terminal/console showing the successfully received 200 OK WhatsApp payload and Gemini processing time)*
 
-<img src="assets/terminal-screenshot.png" alt="Terminal Logs" width="600"/>
-
+<img width="1135" height="625" alt="Image" src="https://github.com/user-attachments/assets/f1b7cd9f-6eed-4613-8c07-4efea05aa7fd" />
+'
 ### 🎥 Live Demo Video
 [🔗 Watch the full 2-minute Loom/YouTube demo recording here](<YOUR_VIDEO_URL_HERE>)
-
+'
 ---
 
 ## 🧠 Architecture Overview
@@ -107,17 +106,5 @@ The system acts as a middleware bridging the user's WhatsApp channel with their 
    npm start
    ```
 
-5. **Expose Localhost (Optional but required for WhatsApp Webhook testing)**
-   Use Ngrok to create a secure tunnel to your local server:
-   ```bash
-   ngrok http 3000
-   ```
-   *Paste the Ngrok forwarding URL into your Meta App's Webhook configuration.*
-
 ---
 
-## 🌐 Deployment
-
-This application is ready to be deployed on platforms like **Render**, **Railway**, or **Heroku**.
-* Ensure you add your `.env` variables to the environment secrets of your chosen hosting provider.
-* Update your Meta developer portal with the new permanent production webhook URL.
